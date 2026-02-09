@@ -13,12 +13,12 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "StepStyle - Premium Shoes for Every Occasion",
-  description: "Shop premium quality shoes for men, women, and kids. Free shipping on orders over $50. Find your perfect fit with StepStyle's latest collection.",
-  keywords: ["shoes", "footwear", "sneakers", "boots", "sandals", "running shoes", "athletic shoes"],
+  title: "MangoMarket - Fresh Premium Mangoes Delivered",
+  description: "Shop premium fresh mangoes from tropical farms. Alphonso, Kent, Tommy Atkins and more exotic varieties delivered at peak ripeness. Farm to door in 24 hours.",
+  keywords: ["mangoes", "fresh fruit", "tropical fruit", "alphonso mango", "kent mango", "organic mangoes", "fresh mangoes delivery"],
   openGraph: {
-    title: "StepStyle - Premium Shoes for Every Occasion",
-    description: "Shop premium quality shoes for men, women, and kids. Free shipping on orders over $50.",
+    title: "MangoMarket - Fresh Premium Mangoes Delivered",
+    description: "Shop premium fresh mangoes from tropical farms. Delivered at peak ripeness with 100% quality guarantee.",
     type: "website",
   },
 };
@@ -32,7 +32,7 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="canonical" href="https://stepstyle.com" />
+        <link rel="canonical" href="https://mangomarket.com" />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
